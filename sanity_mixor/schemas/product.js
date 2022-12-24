@@ -15,7 +15,7 @@ export default {
         {
             name: "name",
             title: "Name",
-            type: "String",
+            type: "string",
         },
         {
             name: "slug",
@@ -28,8 +28,13 @@ export default {
         },
         {
             name: "price",
-            title: "price",
+            title: "Price",
             type: "number"
-        }
+        },
+        {
+            name: "details",
+            title: "Details",
+            type: "string",
+        },
     ]
 }

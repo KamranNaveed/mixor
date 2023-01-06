@@ -1,22 +1,32 @@
-# Mixor
+# 🎧 Mixor
+
+<br>
+
+![NextJS](https://img.shields.io/badge/Next.js-555?style=for-the-badge&logo=Next.js&logoColor=white)
+
+<br>
 
 This project is an ecommerce store for sound equipment built using the Next.js framework for server-side rendering and frontend rendering, Sanity CMS for product content management, and Stripe API for payment integration. It includes the following features:
 
-- Product content management: Admins can create, update, and delete individual products using the Sanity CMS. Product information, including images and descriptions, is stored in the Sanity CMS and displayed on the app using GROQ (Graph-Relational Object Queries).
-- Payment integration: Users can add products to their cart and checkout using Stripe for secure and convenient payment processing.
-- Next.js: The app uses Next.js for both server-side rendering and frontend rendering, resulting in fast and seamless navigation for users.
+📁 Product content management: Admins can create, update, and delete individual products using the Sanity CMS. Product information, including images and descriptions, is stored in the Sanity CMS and displayed on the app using GROQ (Graph-Relational Object Queries).
+
+💲 Payment integration: Users can add products to their cart and checkout using Stripe for secure and convenient payment processing.
+
+⚡ Next.js: The app uses Next.js for both server-side rendering and frontend rendering, resulting in fast and seamless navigation for users.
 
 <br>
 
 A live deployment is available to test [here](https://mixor.vercel.app)
 
-<hr>
+<br>
 
 ## ToDo
 
-- [ ] Fix Bugs
+- [ ] Add dynamic review system
+- [ ] Functionality to filter products by price reviews, type
+- [ ] Build an email newsletter system
 
-<hr>
+<br>
 
 ## Getting started
 
@@ -32,6 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+<br>
 
 ## Deploy on Vercel
 
